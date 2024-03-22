@@ -1,0 +1,74 @@
+#alumni-info {
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #ccc;
+    margin: 1%;
+  }
+  .alumni-highlight {
+    font-size: 70px; /* Adjust the font size as needed */
+    color: black;
+    margin: 1%; ;
+    
+    
+   
+   
+    transform: perspective(1px) rotateX(1deg) rotateY(1deg) translateZ(0);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    font-family:fantasy;
+  }
+  
+  .contact-alumni-box h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .contact-alumni-box .alumni-name {
+    color: #fff;
+  }
+  
+  .contact-alumni-box p {
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  .contact-alumni-box a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact-alumni-box a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-alumni-box .alumni-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact-alumni-box .alumni-info h2 {
+    flex: 1;
+  }
+  
+  .contact-alumni-box .alumni-info p {
+    flex: 1;
+    margin-bottom: 0;
+  }
+  
+  .contact-alumni-box .alumni-info a {
+    flex: 1;
+  }
+  .my-section {
+    background-color: orange;
+  }
+  footer{
+    color: #fff;
+    text-align: center;
+  }
